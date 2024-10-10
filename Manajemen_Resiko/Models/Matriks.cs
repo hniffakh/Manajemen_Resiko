@@ -53,6 +53,7 @@ namespace Manajemen_Resiko.Models
             return matriksList;
         }
 
+
         public MatriksModel getData(int id)
         {
             MatriksModel matriksModel = new MatriksModel();
