@@ -17,6 +17,8 @@ namespace Manajemen_Resiko.Models
             _connection = new SqlConnection(_connectionString);
         }
 
+
+
         public List<MatriksModel> getAllData()
         {
             List<MatriksModel> matriksList = new List<MatriksModel>();
